@@ -1,5 +1,5 @@
-## plot1.R
-# Plot 1 assignment of exploratory data analysis
+## plot2.R
+# Plot 2 assignment of exploratory data analysis
 # Marco Jacono 2015
 # This script is load data of power cosumption and display and create a png file called plot2.png of power consumption over the time
 

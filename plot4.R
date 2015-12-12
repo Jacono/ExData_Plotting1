@@ -39,7 +39,6 @@ sub2 <- subtblPowerConsumption$Sub_metering_2
 sub3 <- subtblPowerConsumption$Sub_metering_3
 
 # Plot 4
-
 png("plot4.png", width=480, height=480)
 
 par(mfrow = c(2, 2)) 
@@ -54,7 +53,9 @@ plot(t, volt, type="l", xlab="datetime", ylab="Voltage")
 plot(t, sub1, type="l", ylab="Energy Submetering", xlab="")
 lines(t, sub2, type="l", col="red")
 lines(t, sub3, type="l", col="blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=1, col=c("black", "red", "blue"))
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=, lwd=1, col=c("black", "red", "blue"),bty="n")
 
 # Subplot 4
 plot(t, reactive, type="l", xlab="datetime", ylab="Global_reactive_power")
+
+dev.off()

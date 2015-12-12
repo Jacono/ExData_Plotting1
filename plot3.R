@@ -1,5 +1,5 @@
-## plot1.R
-# Plot 1 assignment of exploratory data analysis
+## plot3.R
+# Plot 3 assignment of exploratory data analysis
 # Marco Jacono 2015
 # This script is load data of power cosumption and display and create a png file called plot3.png of submetering
 
